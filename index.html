@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NothingApp Deluxe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Welcome to NothingApp Deluxe</h1>
+    <p>Get ready for the most useless yet interactive experience of your life.</p>
+
+    <div class="progress-container">
+        <p id="loading-text">Loading... Please wait.</p>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+    </div>
+
+    <button onclick="doNothing()">Click to Continue</button>
+    <button onclick="unlockPremium()">Buy Premium ($9.99)</button>
+    <button onclick="startUselessAI()">Ask AI</button>
+    <button onclick="fakeExit()">Exit</button>
+
+    <p id="output"></p>
+
+    <script src="script.js"></script> <!-- ✅ Make sure this is at the bottom -->
+</body>
+</html>
